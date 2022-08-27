@@ -1,0 +1,465 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+.full-website{
+    width: 1024;
+}
+.heading-div{
+background-image: url("./img/photo-1471879832106-c7ab9e0cee23.jpg");
+height: 350px;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+.heading-div img{
+display: inline-block;
+height: 20px;
+width: 100px;
+margin-left: 200px;
+padding-top: 20px;
+
+}
+
+.heading-div ul{
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+}
+.heading-div ul li{
+    display: inline-block;
+}
+.heading-div ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.heading-div ul li a:hover{
+    color: rgb(182, 27, 27);
+    transition: .5s;
+}
+
+.heading-div h1{
+    text-align: center;
+    padding: 120px 0;
+    color: white;
+    position: relative;
+}
+
+.heading-div h1::before {
+    content: "\f10d";
+    font-family: "font awesome 5 free";
+    font-weight: 600px;
+    font-size: 40px;
+    position: absolute;
+    top: 105px;
+    left: 451px;
+    color: rgb(251, 52, 52);
+}
+
+.heading-div h1::after {
+    content: "\f10e";
+    font-family: "font awesome 5 free";
+    font-weight: 600px;
+    font-size: 40px;
+    position: absolute;
+    top: 103px;
+    right: 458px;
+    color: rgb(251, 52, 52);
+}
+
+/* <!-- This is intro Section  --> */
+
+.intro-div{
+    background-color: white;
+    height: 350px;
+    position: relative;
+    
+}
+
+.intro-div img{
+    height: 170px;
+    width: 230px;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: inline-block;
+    border: 2px solid red;
+    box-shadow: 0 0 10px;
+}
+.intro-div .inner-intro{
+    position: absolute;
+    height: 350px;
+    width: 550px;
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    top: 0px;
+   
+}
+
+.intro-div h2 {
+    
+    font-weight: 100;
+   margin-left: 150px;
+}
+.intro-div p{
+    font-size: 15px;
+}
+
+/* <!-- This is Service Section  --> */
+.service-section{
+    background-color: #34495e;
+    text-align: center;
+}
+.service-section h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 70px;
+    color: rgb(222, 105, 21);
+}
+
+
+/* service-1    */
+
+.service-1{
+    margin-top: 50px;
+    /* margin-left: 80px; */
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 0 10px ;
+    border-radius: 5px;
+    display: inline-block;
+}
+.service-1 span i{
+    display: inline-block;
+    background-color: rgb(222, 105, 21);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px 20px;
+    color: white;
+}
+
+.service-1 h3{
+margin-top: 10px;
+color: white;
+}
+
+
+.service-1 ul{}
+.service-1 ul li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+}
+.service-1 ul li::before{
+   content: "\f560";
+   font-family: "font awesome 5 free";
+   font-weight: 600;
+   color:  rgb(222, 105, 21);
+   margin-right: 10px;
+
+}
+
+.service-1 a{
+    color: white;
+    background-color: rgb(222, 105, 21);
+    text-decoration: none;
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+    
+}
+
+.service-1 a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: red;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 5px;
+   transition: .5s;
+   z-index: -1;
+}
+
+.service-1 a:hover::before{
+width: 100%;
+height: 100%;
+}
+
+
+/* <!-- This is Service-2  -->  */
+
+
+.service-2{
+    margin-top: 50px;
+    margin-left: 80px;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 0 10px ;
+    border-radius: 5px;
+    display: inline-block;
+}
+.service-2 span i{
+    display: inline-block;
+    background-color: rgb(222, 105, 21);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 5px 20px;
+    color: white;
+}
+
+.service-2 h3{
+margin-top: 10px;
+color: white;
+}
+
+
+.service-2 ul{}
+.service-2 ul li{
+    list-style: none;
+    color: white;
+    margin-top: 10px;
+}
+.service-2 ul li::before{
+   content: "\f560";
+   font-family: "font awesome 5 free";
+   font-weight: 600;
+   color:  rgb(222, 105, 21);
+   margin-right: 10px;
+
+}
+
+.service-2 a{
+    color: white;
+    background-color: rgb(222, 105, 21);
+    text-decoration: none;
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+    
+}
+
+.service-2 a::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: rgb(0, 255, 26);
+   position: absolute;
+   top: 0;
+   right: 0;
+   border-radius: 5px;
+   transition: .5s;
+   z-index: -1;
+}
+
+.service-2 a:hover::before{
+width: 100%;
+height: 100%;
+}
+
+
+/* This is service-3  */
+
+.service-3{
+    margin-top: 50px;
+    margin-left: 80px;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 0 10px ;
+    border-radius: 5px;
+    display: inline-block;
+    
+}
+.service-3 span i{
+  background-color:  rgb(222, 105, 21);
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  border-radius: 5px 20px;
+}
+
+.service-3 h3 {
+margin-top: 10px ;
+color: white;
+}
+
+.service-3 ul{}
+.service-3 ul li{
+    color: white;
+    margin-top: 10px;
+    list-style: none;
+}
+.service-3 ul li::before{
+    content: "\f560";
+    font-family: "font awesome 5 free";
+    font-weight: 600;
+    margin-right: 10px;
+    color:  rgb(222, 105, 21);
+
+}
+
+.service-3 a{
+    text-decoration: none;
+    background-color: rgb(223, 109, 28);
+    padding: 5px 10px;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    z-index: 1;
+
+}
+
+.service-3 a::before{
+    content: "";
+    height:0%;
+    width: 100%;
+    background-color: rgb(222, 16, 16);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: .5s;
+    z-index: -1;
+}
+
+.service-3 a:hover::before{
+
+    height: 100%;
+}
+
+/* <!-- This is contact section  -->  */
+
+.contact-div{
+    height: 200px;
+}
+.contact-div h2{
+    margin-top: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+form{
+    position: relative;
+}
+.contact-div form .name, .email, .number{
+   position: absolute;
+   left: 500px;
+   top: 20px;
+   width: 400px;
+   padding: 10px;
+   border: none;
+   border-bottom: 2px solid red;
+}
+.contact-div form .email{
+    top: 70px;
+}
+.contact-div form .number{
+    top: 120px;
+}   
+
+.submit{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 190px;
+    left: 580px;
+    font-size: 15px;
+    padding: 3px 10px;
+    color: white;
+    background-color: rgb(240, 40, 40);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+    position: relative;
+    width: 220px;
+    z-index: 1;
+}
+
+
+.submit::before{
+    content: "";
+    height:100%;
+    width: 0%;
+    background-color: rgb(95, 75, 75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0px 0px 5px;
+    transition: .5s;
+    z-index: -1;
+    
+   
+}
+.submit:hover::before{
+
+   width: 50%;
+}
+
+.submit::after{
+    content: "";
+    height:100%;
+    width: 0%;
+    background-color: rgb(95, 75, 75);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 5px 5px 0px;
+    transition: .5s;
+    z-index: -1;
+    
+   
+}
+.submit:hover::after{
+
+   width: 50%;
+}
+
+/* <!-- This is footer Section  -->  */
+
+footer{
+    background-color: #34495e;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h3 {
+    color: white;
+    font-weight: 100;
+}
+footer h3 i{
+    color: black;
+}
+
+footer h3 span{
+    color: rgb(196, 60, 60);
+}
